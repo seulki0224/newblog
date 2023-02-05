@@ -1,0 +1,56 @@
+p {
+  font-size: 12px;
+}
+.mainArea {
+  background: #0000ff50;
+  padding: 10px;
+  margin: 10px;
+}
+.mainArea > div {
+  background: #0000ff30;
+  padding: 10px 15px;
+  margin: 0 0 10px 0;
+}
+.mainArea > div:nth-last-child(1) {
+  background: #0000ff30;
+  padding: 5px 10px;
+  margin: 0;
+}
+.mainArea > div > h5 {
+  background: #0000ff10;
+  display: block;
+  margin: 5px 0 10px 0;
+}
+.mainArea > div > h5::before {
+  content: '• ';
+}
+.this {
+  border: 3px solid red;
+  margin: 7px;
+}
+.this_b {
+  border: 3px solid blue;
+  margin: 7px;
+}
+.color_b {
+  color: blue;
+}
+input[type='textarea'].tag {
+  display: block;
+  width: calc(100% - 20px);
+  height: auto;
+  padding: 5px;
+}
+
+input::placeholder {
+  color: #333;
+  font-weight: bold;
+}
+
+.code {
+  display: block;
+  width: calc(100% - 20px);
+  height: auto;
+  padding: 5px;
+  background: #fff;
+}
